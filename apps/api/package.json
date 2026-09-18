@@ -1,0 +1,7 @@
+{
+  "name": "@mana/api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backend API for the MANÁ business management application.",
+  "type": "module"
+}
