@@ -5,5 +5,11 @@ export function buildApp() {
         logger: true,
     });
 
+    app.get("/health", async () => {
+        return {
+            status: "ok",
+        };
+    });
+
     return app;
 }
